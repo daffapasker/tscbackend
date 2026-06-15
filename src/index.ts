@@ -19,6 +19,8 @@ async function init() {
     const allowedOrigins = [
       "http://localhost:3000",
       "https://tscfrontendfsix.vercel.app",
+      "https://app.trisulasportclub.my.id",
+      "https://trisulasportclub.my.id",
     ];
 
     app.use(

@@ -18,7 +18,7 @@ export default {
                 httpOnly: true,
                 secure: true,
                 sameSite: "lax",
-                domain: ".vercel.app",
+                domain: ".trisulasportclub.my.id",
                 path: "/",
                 maxAge: 7 * 24 * 60 * 60 * 1000,
             });
@@ -106,7 +106,7 @@ export default {
                 httpOnly: true,
                 secure: true,
                 sameSite: "lax",
-                domain: ".vercel.app",
+                domain: ".trisulasportclub.my.id",
                 path: "/",
                 maxAge: 7 * 24 * 60 * 60 * 1000,
             });
