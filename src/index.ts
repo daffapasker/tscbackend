@@ -18,7 +18,7 @@ async function init() {
 
     app.use(
       cors({
-        origin: "https://tscfrontend.vercel.app",
+        origin: "https://tscfrontendflax.vercel.app/",
         credentials: true,
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
