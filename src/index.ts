@@ -16,7 +16,17 @@ async function init() {
 
     const app = express();
 
-    app.use(cors());
+    const allowedOrigins = [
+      "http://localhost:3000",
+      "https://tscfrontendfsix.vercel.app",
+    ];
+
+    app.use(
+      cors({
+        origin: allowedOrigins,
+        credentials: true,
+      })
+    );
 
     app.use(cookieParser());
     app.use(bodyParser.json());
